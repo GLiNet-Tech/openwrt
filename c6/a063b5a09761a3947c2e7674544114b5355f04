@@ -1,0 +1,14 @@
+target/linux/mediatek/dts/mt7987a-glinet-gl-be10000.dts
+  h_e15e83f57c43a0 1-4,14,142
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.3",
+  "base_commit_sha": "c6a063b5a09761a3947c2e7674544114b5355f04",
+  "prompts": {},
+  "humans": {
+    "h_e15e83f57c43a0": {
+      "author": "run.cai"
+    }
+  }
+}
