@@ -121,6 +121,9 @@ mediatek_setup_interfaces()
 	bananapi,bpi-r4-poe)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3 lan4" "wan sfp-wan"
 		;;
+	bananapi,bpi-r4-pro-8x)
+		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3 lan4 lan5 lan6" "wan"
+		;;
 	comfast,cf-e393ax)
 		ucidef_set_interfaces_lan_wan "lan1" eth1
 		;;
@@ -158,6 +161,9 @@ mediatek_setup_interfaces()
 	wavlink,wl-wnt100x3|\
 	wavlink,wl-wnt100x3-ubootmod)
 		ucidef_set_interfaces_lan_wan eth0 eth1
+		;;
+	glinet,gl-mt5000)
+		ucidef_set_interfaces_lan_wan "lan1 lan2" eth1
 		;;
 	bazis,ax3000wm|\
 	cudy,m3000-v1|\

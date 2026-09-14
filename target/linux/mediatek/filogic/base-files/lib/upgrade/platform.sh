@@ -143,6 +143,7 @@ platform_do_upgrade() {
 	bananapi,bpi-r4-2g5|\
 	bananapi,bpi-r4-poe|\
 	bananapi,bpi-r4-lite|\
+	bananapi,bpi-r4-pro-8x|\
 	bazis,ax3000wm|\
 	cmcc,a10-ubootmod|\
 	cmcc,rax3000m|\
@@ -203,6 +204,7 @@ platform_do_upgrade() {
 	arcadyan,mozart|\
 	glinet,gl-mt2500|\
 	glinet,gl-mt2500-airoha|\
+	glinet,gl-mt5000|\
 	glinet,gl-mt6000|\
 	glinet,gl-x3000|\
 	glinet,gl-xe3000|\
@@ -391,6 +393,7 @@ platform_check_image() {
 	bananapi,bpi-r4-2g5|\
 	bananapi,bpi-r4-poe|\
 	bananapi,bpi-r4-lite|\
+	bananapi,bpi-r4-pro-8x|\
 	bazis,ax3000wm|\
 	cmcc,a10-ubootmod|\
 	cmcc,rax3000m|\
@@ -469,6 +472,7 @@ platform_copy_config() {
 	bananapi,bpi-r4-2g5|\
 	bananapi,bpi-r4-poe|\
 	bananapi,bpi-r4-lite|\
+	bananapi,bpi-r4-pro-8x|\
 	cmcc,rax3000m|\
 	gatonetworks,gdsp|\
 	mediatek,mt7988a-rfb)
